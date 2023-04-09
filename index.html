@@ -10,12 +10,21 @@
       display: block;
       margin: 0 auto;
     }
-    
+    .date {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      font-size: 12px;
+      color: gray;
+    }
   </style>
 </head>
 <body>
   <h1>Hello Bookers</h1>
-  <p>I'm hosted with GitHub Pages.</p>
+  <p>I'm hosted with This Book Pages.</p>
   <img src="7A014D2E-8DB0-4C11-8DE1-E6C4FBB70A44.jpeg" width="550" height="550">
+  <div class="date">
+    Today is: <?php echo date("Y-m-d"); ?>
+  </div>
 </body>
 </html>
